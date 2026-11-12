@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Frontend bug fix before and after demo using HTML and CSS.">
+  <title>Frontend Layout Fix | Before and After Demo</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="topbar">
+    <div class="container topbar-content">
+      <a href="#home" class="brand">Layout<span>Fix</span></a>
+      <p>Frontend Bug Fix Demo</p>
+      <a href="#after" class="view-result">View fixed result <span>↓</span></a>
+    </div>
+  </header>
+
+  <main id="home">
+    <section class="intro">
+      <div class="container intro-content">
+        <p class="eyebrow">HTML CSS RESPONSIVE FIX</p>
+        <h1>One layout issue. <span>One clear fix.</span></h1>
+        <p>
+          This demo shows how frontend HTML and CSS issues can affect a page,
+          and how a responsive, organized layout improves the result.
+        </p>
+      </div>
+    </section>
+
+    <section class="comparison">
+      <div class="container">
+        <div class="comparison-heading">
+          <div>
+            <p class="eyebrow">DEMO COMPARISON</p>
+            <h2>Before and after</h2>
+          </div>
+          <p>Same content. Improved CSS structure, spacing, alignment, and mobile behavior.</p>
+        </div>
+
+        <div class="comparison-grid">
+          <article class="preview-card before-card">
+            <div class="preview-top">
+              <div>
+                <span class="status status-broken">!</span>
+                <p>Before</p>
+                <h3>Broken frontend layout</h3>
+              </div>
+              <span class="issue-count">4 issues</span>
+            </div>
+
+            <div class="browser before-browser">
+              <div class="browser-bar">
+                <i></i><i></i><i></i>
+                <span>example-site.com</span>
+              </div>
+
+              <div class="broken-page">
+                <nav class="broken-nav">
+                  <strong>NorthPeak</strong>
+                  <div>
+                    <a>Home</a>
+                    <a>Services</a>
+                    <a>About</a>
+                    <a>Contact</a>
+                  </div>
+                </nav>
+
+                <div class="broken-hero">
+                  <div class="broken-copy">
+                    <p>MAKE WORK SIMPLE</p>
+                    <h4>Better tools for better teams</h4>
+                    <span>Build clear workflows for your business.</span>
+                    <button>Get Started</button>
+                  </div>
+
+                  <div class="broken-art">
+                    <i></i><i></i><i></i>
+                  </div>
+                </div>
+
+                <div class="broken-cards">
+                  <article><b>01</b><span>Planning</span></article>
+                  <article><b>02</b><span>Workflow</span></article>
+                  <article><b>03</b><span>Results</span></article>
+                </div>
+              </div>
+            </div>
+
+            <ul class="issue-list">
+              <li><span>×</span> Navigation overflows on small screens</li>
+              <li><span>×</span> Hero content and visual overlap</li>
+              <li><span>×</span> Cards do not adapt to mobile width</li>
+              <li><span>×</span> Spacing and alignment are inconsistent</li>
+            </ul>
+          </article>
+
+          <article class="preview-card after-card" id="after">
+            <div class="preview-top">
+              <div>
+                <span class="status status-fixed">✓</span>
+                <p>After</p>
+                <h3>Responsive frontend layout</h3>
+              </div>
+              <span class="issue-count fixed-count">Fixed</span>
+            </div>
+
+            <div class="browser after-browser">
+              <div class="browser-bar">
+                <i></i><i></i><i></i>
+                <span>example-site.com</span>
+              </div>
+
+              <div class="fixed-page">
+                <nav class="fixed-nav">
+                  <strong>NorthPeak</strong>
+                  <div class="fixed-links">
+                    <a>Home</a>
+                    <a>Services</a>
+                    <a>About</a>
+                  </div>
+                  <button class="menu-button">☰</button>
+                </nav>
+
+                <div class="fixed-hero">
+                  <div class="fixed-copy">
+                    <p>MAKE WORK SIMPLE</p>
+                    <h4>Better tools for better teams</h4>
+                    <span>Build clear workflows for your business.</span>
+                    <button>Get Started <b>→</b></button>
+                  </div>
+
+                  <div class="fixed-art">
+                    <div class="art-card art-card-one">
+                      <span>Projects</span>
+                      <strong>24</strong>
+                      <i></i>
+                    </div>
+                    <div class="art-card art-card-two">
+                      <span>Progress</span>
+                      <strong>78%</strong>
+                    </div>
+                    <div class="art-chart">
+                      <i></i><i></i><i></i><i></i><i></i>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="fixed-cards">
+                  <article><b>01</b><span>Planning</span></article>
+                  <article><b>02</b><span>Workflow</span></article>
+                  <article><b>03</b><span>Results</span></article>
+                </div>
+              </div>
+            </div>
+
+            <ul class="issue-list fixed-list">
+              <li><span>✓</span> Mobile-friendly navigation behavior</li>
+              <li><span>✓</span> Clear hero alignment and spacing</li>
+              <li><span>✓</span> Responsive grid for service cards</li>
+              <li><span>✓</span> Consistent layout across screen sizes</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="fix-summary">
+      <div class="container summary-grid">
+        <div>
+          <p class="eyebrow">WHAT WAS IMPROVED</p>
+          <h2>Focused frontend fixes for a cleaner user experience.</h2>
+        </div>
+
+        <div class="summary-items">
+          <article>
+            <span>01</span>
+            <div>
+              <h3>Responsive layout</h3>
+              <p>Updated CSS structure so content adapts across desktop and mobile screens.</p>
+            </div>
+          </article>
+
+          <article>
+            <span>02</span>
+            <div>
+              <h3>Spacing and alignment</h3>
+              <p>Improved padding, gaps, and section placement for a more balanced layout.</p>
+            </div>
+          </article>
+
+          <article>
+            <span>03</span>
+            <div>
+              <h3>Frontend cleanup</h3>
+              <p>Organized visual structure to make the page easier to read and use.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="code-section">
+      <div class="container code-grid">
+        <div class="code-content">
+          <p class="eyebrow">CSS APPROACH</p>
+          <h2>Simple changes can make a large difference.</h2>
+          <p>
+            Clear containers, flexible grids, and responsive media queries help
+            a page work better without changing its core content.
+          </p>
+
+          <div class="code-tags">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>Responsive Design</span>
+            <span>Layout Fix</span>
+          </div>
+        </div>
+
+        <div class="code-window">
+          <div class="code-header">
+            <span></span><span></span><span></span>
+            <p>style.css</p>
+          </div>
+
+          <pre><code><b>.hero</b> {
+  display: <em>grid</em>;
+  grid-template-columns: <em>1fr 1fr</em>;
+  gap: <em>2rem</em>;
+}
+
+<b>@media</b> (max-width: <em>768px</em>) {
+  .hero {
+    grid-template-columns: <em>1fr</em>;
+  }
+
+  .cards {
+    grid-template-columns: <em>1fr</em>;
+  }
+}</code></pre>
+        </div>
+      </div>
+    </section>
+
+    <section class="closing">
+      <div class="container closing-box">
+        <div>
+          <p class="eyebrow">DEMO PROJECT</p>
+          <h2>HTML CSS Frontend Bug Fix Example</h2>
+          <p>This demo is designed to show layout, spacing, and responsiveness improvements.</p>
+        </div>
+        <a href="#home">Back to top <span>↑</span></a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-content">
+      <a href="#home" class="brand">Layout<span>Fix</span></a>
+      <p>Demo Project • Frontend Bug Fix Before and After</p>
+    </div>
+  </footer>
+
+</body>
+</html>
